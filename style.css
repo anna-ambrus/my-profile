@@ -1,0 +1,122 @@
+body {
+  background-color: #cce6ea3d;
+  color: rgb(50,50,50);
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-family: Lucida Handwriting, cursive;
+  color: #496989;
+  font-weight: bolder;
+}
+
+h1 {
+  font-weight: 100;
+  letter-spacing: 10px;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.img-circle{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-family: "Lora", serif;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: #496989;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color:rebeccapurple;
+}
+
+.list-inline {
+  display: block;
+  font-size: 30px;
+  list-style: none;
+  text-align: center;
+  margin-right: 35px;
+}
+
+.list-inline li {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+}
+
+.container{
+  width: 800px;
+  margin: 40px auto;
+}
+
+@media (max-width: 760px){
+  .container{
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px){
+  .container{
+    width: 400px;
+  }
+}
+
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  margin: 20px 0px;
+  box-shadow: 0 15px 35px rgba(50,50,93,.1);
+}
+
+.btn-blue, .center, .link-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #496989;
+  color: white;
+  padding: 15px 20px;
+  width: 200px;
+  border-radius: 4px;
+  font-family: "Lora";
+  font-weight: bolder;
+}
+
+.btn-blue:hover{
+  color: #E2F4C5;
+}
+
+
+#introduction p {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+
